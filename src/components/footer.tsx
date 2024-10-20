@@ -47,7 +47,7 @@ const Footer = () => {
         <div className="flex justify-center items-center">
         <FaPhoneSquareAlt className="w-14 h-14 rounded-full p-2" />
         <p className="text-xl font-semibold pl-2">
-         <a href="http://localhost:3000/contact">Contact us on:+92-313-2254939</a>
+         <a href="https://my-web-gilt.vercel.app/contact">Contact us on:+92-313-2254939</a>
          </p>
          </div>
 
