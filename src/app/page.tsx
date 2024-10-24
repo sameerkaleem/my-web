@@ -24,6 +24,7 @@ export default function Home (){
             strength, endurance, flexibility, and cardiovascular health. Both
             aspects are interrelated and contribute to a higher quality of life.
           </p>
+          <br></br>
 
           <div>
             <Image
@@ -36,6 +37,7 @@ export default function Home (){
             xl:h-[500px] xl:w-[800px] xl:mt-10 xl:ml-[270px]
              "
               alt="Gym1"
+            
               
             />
           </div>
@@ -75,18 +77,21 @@ export default function Home (){
             
           </p>
           <div>
-            <Image
-              src={Gym2}
-              className="
-              w-[400px] h-[500px] ml-[50px]
-            sm:h-[550px] sm:w-[400px] sm:mt-5 sm:ml-[130px]
-            md:h-[550px] md:mt-10  md:w-[450px]  md:ml-[180px]
-            lg:h-[550px] lg:mt-10  lg:w-[500px]  lg:ml-[400px]
-            xl:h-[550px] xl:mt-10  xl:w-[500px]  xl:ml-[420px]"
-              alt="Gym2"
+            <br></br>
+  <Image
+    src={Gym2}
+    className="
+      h-[300px] w-[500px]
+            sm:h-[350px] sm:w-[500px] sm:mt-5 sm:ml-[80px]
+            md:h-[400px] md:w-[650px] md:mt-10 md:ml-[80px]
+            lg:h-[500px] lg:w-[800px] lg:mt-10 lg:ml-[250px]
+            xl:h-[500px] xl:w-[800px] xl:mt-10 xl:ml-[270px]
+    "
+    alt="Gym2"
+  />
+</div>
+
               
-            />
-          </div>
 
           <br/>
 
@@ -103,6 +108,8 @@ export default function Home (){
             from the body. Eating a variety of whole, unprocessed foods ensures
             that the body receives the nutrients it needs to thrive.
           </p>
+          <br></br>
+          
         </div>
   </main>
 };
