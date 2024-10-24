@@ -19,25 +19,27 @@ const About = () => {
         those seeking to improve their fitness and overall well-being in
         Karachi.
       </p>
+      <br></br>
+    
 
-      <div className="relative w-full h-[500px] sm:h-[550px] md:h-[600px] lg:h-[650px]">
-        <Image
-          src={Gym3}
-          alt="Gym3"
-          fill
-          className="
-            h-[300px] w-[500px]
-            sm:h-[350px] sm:w-[500px] sm:mt-5 sm:mr-[80px]
-            md:h-[400px] md:w-[650px] md:mt-10 md:mr-[80px]
-            lg:h-[400px] lg:w-[600px] lg:mt-10 lg:mr-[250px]
-            xl:h-[400px] xl:w-[600px] xl:mt-10 xl:mr-[270px]
-             "
-        />
-      </div>
+      <div className="flex justify-center">
+  <Image
+    src={Gym3}
+    alt="Gym3"
+    
+    className="
+      w-[85%] h-auto  // Default size for mobile devices
+      sm:w-[75%] sm:h-auto // For small devices (sm: min-width 640px)
+      md:w-[70%] md:h-auto // For medium devices (md: min-width 768px)
+      lg:w-[60%] lg:h-auto // For large devices (lg: min-width 1024px)
+      xl:w-[50%] xl:h-auto // For extra-large devices (xl: min-width 1280px)
+    "
+  />
+</div>
+
+
 
       <br />
-      <br></br>
-
       <div>
         <p className="text-center">
 
