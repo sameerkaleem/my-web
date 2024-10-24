@@ -35,10 +35,10 @@ const AdmissionForm = () => {
   };
 
   return (
-    <div className="flex justify-center text-black p-6 bg-gray-100 h-screen">
-      <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+    <div className="flex justify-center items-center text-black p-6 bg-gray-100 min-h-screen">
+      <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-lg w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl">
         <div className="mb-4">
-          <label className="block mb-1">Full Name:</label>
+          <label className="block mb-1 text-sm sm:text-base">Full Name:</label>
           <input
             type="text"
             name="fullName"
@@ -46,12 +46,12 @@ const AdmissionForm = () => {
             value={formData.fullName}
             onChange={handleChange}
             required
-            className="w-full px-3 py-2 border rounded-md"
+            className="w-full px-3 py-2 border rounded-md text-sm sm:text-base"
           />
         </div>
 
         <div className="mb-4">
-          <label className="block mb-1">Age:</label>
+          <label className="block mb-1 text-sm sm:text-base">Age:</label>
           <input
             type="number"
             name="age"
@@ -59,12 +59,12 @@ const AdmissionForm = () => {
             value={formData.age}
             onChange={handleChange}
             required
-            className="w-full px-3 py-2 border rounded-md"
+            className="w-full px-3 py-2 border rounded-md text-sm sm:text-base"
           />
         </div>
 
         <div className="mb-4">
-          <label className="block mb-1">Email:</label>
+          <label className="block mb-1 text-sm sm:text-base">Email:</label>
           <input
             type="email"
             name="email"
@@ -72,12 +72,12 @@ const AdmissionForm = () => {
             value={formData.email}
             onChange={handleChange}
             required
-            className="w-full px-3 py-2 border rounded-md"
+            className="w-full px-3 py-2 border rounded-md text-sm sm:text-base"
           />
         </div>
 
         <div className="mb-4">
-          <label className="block mb-1">Phone Number:</label>
+          <label className="block mb-1 text-sm sm:text-base">Phone Number:</label>
           <input
             type="tel"
             name="phone"
@@ -85,18 +85,18 @@ const AdmissionForm = () => {
             value={formData.phone}
             onChange={handleChange}
             required
-            className="w-full px-3 py-2 border rounded-md"
+            className="w-full px-3 py-2 border rounded-md text-sm sm:text-base"
           />
         </div>
 
         <div className="mb-4">
-          <label className="block mb-1">Membership Type:</label>
+          <label className="block mb-1 text-sm sm:text-base">Membership Type:</label>
           <select
             name="membershipType"
             value={formData.membershipType}
             onChange={handleChange}
             required
-            className="w-full px-3 py-2 border rounded-md"
+            className="w-full px-3 py-2 border rounded-md text-sm sm:text-base"
           >
             <option value="">Select Membership</option>
             <option value="monthly">Monthly</option>
@@ -105,7 +105,7 @@ const AdmissionForm = () => {
           </select>
         </div>
 
-        <Button type="submit" className="w-full py-2 px-4 bg-red-800 text-white rounded-md">Submit</Button>
+        <Button type="submit" className="w-full py-2 px-4 bg-red-800 text-white rounded-md text-sm sm:text-base">Submit</Button>
       </form>
     </div>
   );
