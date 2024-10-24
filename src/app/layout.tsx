@@ -33,17 +33,8 @@ export default function RootLayout({
       >
         <Header/>
         {children}
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       
-       
-
+      
+      
       <Footer/>
         
       </body>
